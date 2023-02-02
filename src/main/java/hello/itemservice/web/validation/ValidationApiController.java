@@ -26,5 +26,4 @@ public class ValidationApiController {
         log.info("성공 로직 실행");
         return form;
     }
-    // 모든 오류(ObjectError + FieldError) 반환 (JSON 형식)
 }
